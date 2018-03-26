@@ -1,0 +1,16 @@
+
+
+créer le projet : ./composer.phar create-project -s rc symfony/skeleton:^3.4 ifi-php
+
+lancer le projet : ../composer.phar req annot
+
+php -S 127.0.0.1:8080 -t public
+
+../composer.phar req templating
+
+lancer une requet pour inserer (POST ): bin/console app:create-tournament "Mon tournoi" "01/01/2018"
+
+afficher le contenu de la  base : sqlite3 var/data.db 
+
+install api symfony :  ../composer.phar require api
+
